@@ -1,6 +1,46 @@
-header {
-  background-color: #333;
+/* Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #040404;
   color: white;
-  padding: 1em;
-  text-align: center;
+}
+
+.header__logo {
+  width: 50px;
+  object-fit: contain;
+}
+
+.header__search {
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+
+.header__searchInput {
+  width: 400%;
+  background-color: #121212;
+  border: none;
+  padding: 10px;
+  color: white;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__userAvatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.header__userName {
+  font-size: 14px;
+  font-weight: 600;
 }
